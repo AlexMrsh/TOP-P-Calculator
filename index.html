@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>TOP Project - Calculator</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Calculator</h1>
+        <div class="tagline">a project from The Odin Project Curriculum</div>
+    </header>
+    <div id="content">
+        <div id="calculator">
+            <div id="screen">
+                <div id="screen-up"></div>
+                <div id="screen-down"></div>
+            </div>
+            <div id="keypad">
+                <button id="button-clear">CLEAR</button>
+                <button id="button-delete">DELETE</button>
+
+                <button id="button-7" data-number>7</button>
+                <button id="button-8" data-number>8</button>
+                <button id="button-9" data-number>9</button>
+                <button id="button-/" value="/" data-operator>÷</button>
+
+                <button id="button-4" data-number>4</button>
+                <button id="button-5" data-number>5</button>
+                <button id="button-6" data-number>6</button>
+                <button id="button-*" value="*" data-operator>x</button>
+
+                <button id="button-1" data-number>1</button>
+                <button id="button-2" data-number>2</button>
+                <button id="button-3" data-number>3</button>
+                <button id="button--" value="-" data-operator>-</button>
+
+                <button id="button-point">.</button>
+                <button id="button-0" data-number>0</button>
+                <button id="button-equal">=</button>
+                <button id="button-+" value="+" data-operator>+</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </body>
 </html>
