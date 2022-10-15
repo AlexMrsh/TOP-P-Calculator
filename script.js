@@ -174,6 +174,7 @@ buttonDelete.addEventListener('click', e => {
 })
 
 function keyboardInput(e){
+    e.preventDefault();
     let buttonId;
     if(e.key >= 0 && e.key <= 9 ||
         e.key == '+' ||
